@@ -1,0 +1,434 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: sans-serif;
+  background-color: black;
+}
+.biglogo {
+  max-width: 100px;
+  max-height: 100px;
+}
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 150;
+  font-style: normal;
+
+}
+a:hover{
+    color: #b8ab69;
+}
+.active 
+{
+    color:#b8ab69;
+    
+}
+
+.navbar{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background: black;
+  color: white;
+  padding: 20px 20px;
+  margin-bottom: 30px;
+  gap: 80px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 150;
+  font-style: normal;
+  position: fixed;
+  width: 100%;
+}
+.icons {
+  font-size: 20px;
+  margin-top: 4px;
+  gap: 2px;
+}
+.bi1:hover {
+  color: blue;
+}
+.bi2:hover {
+  color: red;
+}
+.bi3:hover {
+  color: pink;
+}
+.bi4:hover {
+  color: yellow;
+}
+
+.tekst1 {
+  color: #b8ab69;
+  height: 300px;
+  background-color: black;
+  padding-top: 200px;
+  text-align: center;
+  font-size: 60px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 150;
+  font-style: normal;
+}
+
+.nav-scrolled {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background: black;
+  color: white;
+  padding: 20px 20px;
+  margin-bottom: 30px;
+  gap: 80px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 150;
+  font-style: normal;
+  position: fixed;
+  width: 100%;
+  border-bottom: 1px solid #b8ab69;
+}
+
+.barrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(Images/Product-img/pr2.jpg);
+}
+.tekst2 {
+  font-size: 60px;
+  padding-left: 40px;
+  padding-top: 10%;
+  float: left;
+  color: white;
+}
+img {
+  max-width: 60%;
+  max-height: 40%;
+  float: left;
+}
+.barrow2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(Images/Product-img/26972478_10211057660419676_1497882523_o.jpg);
+}
+.tekst3 {
+  font-size: 60px;
+  padding-right: 40px;
+  padding-top: 10%;
+  float: left;
+  color: white;
+}
+img {
+  max-width: 60%;
+  max-height: 40%;
+  float: right;
+}
+.barrow3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(Images/Product-img/pr1.jpg);
+}
+.barrow4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(Images/Product-img/26905777_10211057660499678_211427677_o.jpg);
+}
+.barrow5 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(Images/Product-img/26972582_10211057660539679_1888864108_o.jpg);
+}
+.barrow6 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(Images/Product-img/pr1.jpg);
+}
+.barrow7 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(Images/Product-img/pr2.jpg);
+}
+.barrow8 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(Images/Product-img/26972478_10211057660419676_1497882523_o.jpg);
+}
+
+footer {
+
+  color: white;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+  height: 210px;
+  width: 100%;
+  align-items: center;
+  
+  
+  
+}
+
+footer h1{
+    color: #b8ab69;
+    font-size:30px ;
+    margin:5PX 100px 5px 100px;
+    font-size: 25px;
+    ;
+
+    
+}
+h4{
+    color:white;
+    margin-top: 5px;
+    margin-left: 100px;
+    font-size: 15px;
+}
+.email{
+    color: #695d22;
+    margin-bottom: 10px;
+    margin-left: 100px;
+}
+
+
+footer a{
+    color: white;
+    display: flex;
+flex-direction: column;
+margin-bottom: 2px;
+margin-left: 100px;
+gap: 2px;
+font-size: 15px;
+
+}
+footer a:hover{
+    color: #695d22;
+}
+hr{
+    background-color: aliceblue;
+    margin-left: 30px;
+    margin-bottom: 10px;
+    margin-right: 30px;
+}
+p{
+    color: white;
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+.section{
+    animation: 0.3s fadeIn;
+    animation-fill-mode: forwards;
+    visibility: hidden;
+}
+@keyframes fadeIn {
+    99% {
+      visibility: hidden;
+    }
+    100% {
+      visibility: visible;
+    }
+  }
+  @media  (max-width: 1200px) {
+    .tekst1{
+     max-width: 100%; 
+      font-size: 70px;
+      text-align: center;
+      
+    }
+    .barrow{
+        max-width: 100%;
+        font-size: 10px;
+    
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .tekst2{
+        font-size: 40px;
+        text-align: center;
+    }
+    .barrow2{
+        max-width: 100%;
+        font-size: 10px;
+    
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .tekst3{
+        font-size: 40px;
+        text-align: center;
+    }
+    .barrow3{
+        max-width: 100%;
+        font-size: 10px;
+    
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .tekst2{
+        font-size: 40px;
+        text-align: center;
+    }
+    .barrow4{
+        max-width: 100%;
+        font-size: 10px;
+    
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .tekst3{
+        font-size: 40px;
+        text-align: center;
+    }
+    .barrow5{
+        max-width: 100%;
+        font-size: 10px;
+    
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .tekst2{
+        font-size: 40px;
+        text-align: center;
+    }  
+    .barrow6{
+        max-width: 100%;
+        font-size: 10px;
+    
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .tekst3{
+        font-size: 40px;
+        text-align: center;
+    }
+    .barrow7{
+        max-width: 100%;
+        font-size: 10px;
+    
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .tekst2{
+        font-size: 40px;
+        text-align: center;
+    }
+.icons{
+    visibility: hidden !important;
+}
+
+}
+@media  (max-width: 600px) {
+    .tekst1{
+     width: 100%; 
+      font-size: 100px;
+      text-align: right;
+      
+    }
+    .barrow{
+        max-width: 100%;
+        font-size: 10px;
+    
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .tekst2{
+        font-size: 40px;
+        text-align: center;
+    }
+    .barrow2{
+        max-width: 100%;
+        font-size: 10px;
+    
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .tekst3{
+        font-size: 40px;
+        text-align: center;
+    }
+    .barrow3{
+        max-width: 100%;
+        font-size: 10px;
+    
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .tekst2{
+        font-size: 40px;
+        text-align: center;
+    }
+    .barrow4{
+        max-width: 100%;
+        font-size: 10px;
+    
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .tekst3{
+        font-size: 40px;
+        text-align: center;
+    }
+    .barrow5{
+        max-width: 100%;
+        font-size: 10px;
+    
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .tekst2{
+        font-size: 40px;
+        text-align: center;
+    }  
+    .barrow6{
+        max-width: 100%;
+        font-size: 10px;
+    
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .tekst3{
+        font-size: 40px;
+        text-align: center;
+    }
+    .barrow7{
+        max-width: 100%;
+        font-size: 10px;
+    
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .tekst2{
+        font-size: 40px;
+        text-align: center;
+    }
+
+.icons{
+    visibility: hidden !important;
+}
+}
